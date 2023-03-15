@@ -1,0 +1,16 @@
+1st Year
+● Introduction to Algorithm and Programming
+● Introduction to Computer Technologies
+● Fundamentals of Graphic and Web Design
+● Mathematics
+● Visual Programming
+● Object Oriented Programming (OOP)
+● Database Management Systems
+
+
+2nd Year
+● Information Security
+● Internet Programming
+● Computer Network Systems
+● Embedded System Programming
+● Mobile Programming
