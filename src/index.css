@@ -1,0 +1,101 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://wallpapercave.com/wp/wp4477742.jpg');
+  background-position:center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav-link{
+  border-radius: 20%;
+  margin-left: 2rem;
+}
+.nav-link:hover{
+  background-color: white;
+}
+
+.card {
+  border: none;
+}
+.card-img {
+  border-radius: 0;
+}
+.vgr-cards .card {
+  display: flex;
+  flex-flow: wrap;
+  flex: 100%;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 576px) {
+  .vgr-cards .card {
+    display: block;
+ }
+}
+.vgr-cards .card-img-body {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+@media (max-width: 576px) {
+  .vgr-cards .card-img-body {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+ }
+}
+.vgr-cards .card-img {
+  width: 50%;
+  height: auto;
+  position: absolute;
+}
+@media (max-width: 1140px) {
+  .vgr-cards .card-img {
+    margin: 0;
+    transform: none;
+    width: 100%;
+    height: auto;
+ }
+}
+.vgr-cards .card-body {
+  flex: 2;
+  padding: 0 0 0 1.25rem;
+}
+@media (max-width: 576px) {
+  .vgr-cards .card-body {
+    padding: 0;
+ }
+}
+
+.pagination{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  font-size: 1.2rem;
+  gap: 5px;
+}
+.pagination .page-num{
+  text-decoration: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 400;
+  color: #fff;
+}
+.pagination .page-num:hover{
+  background-color: #5ab1bb;
+  color: #fff;
+}
+.pagination .page-num:active{
+  background-color: #5ab1bb;
+}
